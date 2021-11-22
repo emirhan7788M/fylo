@@ -1,0 +1,175 @@
+/* =============== CONTENTS =============== */
+/* FONTS */
+/* BOX-SIZING */
+/* GLOBAL STYLES */
+/* HELPER / GLOBAL COMPONENTS */
+/* MEDIA QUERIES */
+
+
+
+/*------------------------------------*\
+  #FONT-FACE
+\*------------------------------------*/
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('../fonts/raleway-v22-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v22-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-700 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/raleway-v22-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v22-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v27-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/*------------------------------------*\
+  #BOX-SIZING
+\*------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+/*------------------------------------*\
+    #GLOBAL-STYLES
+  \*------------------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #181f21;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*------------------------------------*\
+    #HELPER / GLOBAL COMPONENTS
+  \*------------------------------------*/
+
+/* VISUALLY HIDING CODE */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+    margin: 24px 15px;
+}
+
+.header {
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+.header__img {
+    margin-top: 24px;
+}
+
+
+
+.header__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    line-height: 14px;
+}
+
+.header__item {
+    list-style-type: none;
+    margin-left: 24px;
+}
+
+.header__link {
+    color: #fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.main__img {
+margin: 53px 35px 33px 36px;
+}
+
+.main__content {
+    text-align: center;
+}
+
+.main__item {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.main__text{
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+}
+
+.main__link{
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 81px;
+    background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    border-radius: 24px;
+}
+
