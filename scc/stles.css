@@ -281,3 +281,121 @@ img {
 .four__last{
     margin-left: 8px;
 }
+
+.last_content {
+    text-align: center;
+}
+
+.last__item {
+    font-family: "OpenSans";
+    font-size: 19px;
+    line-height: 21px;
+}
+
+.last__text {
+    margin-top: 16px;
+    font-family: "OpenSans";
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.last__input {
+    margin-top: 32px ;
+    opacity: 0.8;
+    font-family: OpenSans;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 19px 80px 15px 29px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+
+.main__last_link {
+    padding: 16px;
+    background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 24px;
+}
+.last__link {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.main__last__content {
+    background: #1B2330;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+    border-radius: 9px;
+    padding: 40px 28px 37px 28px;
+}
+
+
+.footer__info {
+    display: flex;
+    align-items: baseline;
+
+}
+.footer__text{
+
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 31px;
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_img {
+    align-items: baseline;
+}
+
+.nubber__link {
+    display: flex;
+    justify-content: baseline;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nubber__link {
+    margin-right: 15px;
+}
+.footer__nubber {
+    margin: 19px 0 0 0;
+}
+
+.footer__lists {
+    padding: 0;
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+    list-style-type: none;
+}
+.footer__links {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__texts {
+    margin-bottom: 16px;
+}
+
+.footer__listss {
+    margin-top: 48px;
+    padding: 0;
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+    list-style-type: none;
+}
+.footer_and{
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
